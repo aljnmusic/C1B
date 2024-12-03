@@ -24,7 +24,7 @@
         margin: 0;
         padding: 0;
     }
-
+    
 </style>
 <body class="relative">
     <header class="flex items-center justify-between w-full fixed top-0 z-10 h-[3.5rem] sm:h-[3rem]">
@@ -58,7 +58,7 @@
     <section id="home" class="w-full h-full flex items-center justify-center relative">
         <img src="img/7.jpg" alt="home" class="w-full h-full object-cover object-center">
 
-        <div class="flex align-center justify-center flex-col absolute lg:left-36 top-24 lg:top-60 origin-top">
+        <div id="hibi" class="flex align-center justify-center flex-col absolute lg:left-36 top-24 lg:top-60 origin-top">
             <pre class="text-6xl lg:text-9xl font-sans text-white font-bold italic"><span class="text-yellow-200">Eat,</span> Sleep,
 Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
 
@@ -68,10 +68,10 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
             </div>
         </div>
 
-        <div class="flex items-center justify-center px-3 h-1/6 w-full lg:h-1/2 lg:w-1/3 absolute pt-48 top-48 lg:pt-0 lg:right-36 lg:top-56">
+        <div id="bscs" class="flex items-center justify-center px-3 h-1/6 w-full lg:h-1/2 lg:w-1/3 absolute pt-48 top-48 lg:pt-0 lg:right-36 lg:top-56">
             <p class="lg:text-2xl text-center text-sm indent-8 lg:text-center font-robotoCondensed font-bold text-slate-300 italic">We are <span class="text-yellow-200">BSCS 1B</span>, a <span class="text-yellow-200">dynamic</span> and <span class="text-yellow-200">diverse</span> group of students with different <span class="text-yellow-200">backgrounds</span>, <span class="text-yellow-200">talents</span>, and <span class="text-yellow-200">skills</span>. Each of us brings a <span class="text-yellow-200">unique perspective</span>, which <span class="text-yellow-200">enriches</span> our <span class="text-yellow-200">learning environment</span>. <span class="text-yellow-200">Together</span>, we <span class="text-yellow-200">collaborate</span> and <span class="text-yellow-200">support one another</span>, <span class="text-yellow-200">embracing</span> our <span class="text-yellow-200">differences</span> while <span class="text-yellow-200">striving</span> for shared <span class="text-yellow-200">academic</span> and <span class="text-yellow-200">personal growth</span>. Our <span class="text-yellow-200">collective strength</span> enable us to <span class="text-yellow-200">tackle challenges</span> with <span class="text-yellow-200">creativity</span> and <span class="text-yellow-200">resilience</span>, fostering a sense of <span class="text-yellow-200">unity</span> and <span class="text-yellow-200">teamwork</span>. As we journey through our studies, we are <span class="text-yellow-200">committed</span> to not only <span class="text-yellow-200">mastering</span> our <span class="text-yellow-200">field</span> but also building lasting <span class="text-yellow-200">connections</span> and <span class="text-yellow-200">preparing</span> ourselves for the <span class="text-yellow-200">future</span>.</p>
 
-            <div class="lg:hidden mt-8 cursor-pointer absolute pt-10 top-72">
+            <div id="login" class="lg:hidden mt-8 cursor-pointer absolute pt-10 top-72">
                 <a href="https://my.parsu.edu.ph/goa/sias/" target="_blank" rel="noopener noreferrer" class="text-amber-200 text-2xl mr-5 font-robotoCondensed border rounded-md px-6 py-1 hover:bg-yellow-200 hover:text-white">Login</a>
                 <a href="https://my.parsu.edu.ph/goa/sias/" target="_blank" rel="noopener noreferrer" class="text-amber-200 text-2xl font-robotoCondensed border rounded-md px-4 py-1 hover:bg-yellow-200 hover:text-white">Sign Up</a>
             </div>
@@ -151,12 +151,12 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
             </div>
         </div>
 
-        <div class="flex flex-row items-center justify-center h-8 w-full lg:h-1/2 lg:w-1/3 absolute pt-0 top-48 lg:pt-0 lg:right-36 lg:top-56">
+        <div class="flex flex-row items-center justify-center h-8 w-full lg:h-1/2 lg:w-1/3 absolute pt-0 top-32 lg:pt-0 lg:right-36 lg:top-56">
             <div class="w-full flex justify-center items-center">
                 <p class="text-2xl font-robotoCondensed text-white font-semibold italic cursor-pointer" id="monday">M</p>
-                    <div id="monday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-60">
+                    <div id="monday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-64">
                         <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Monday Schedule Details</p>
-                        <table class="text-white mt-4 ml-6">
+                        <table class="text-white mt-4 ml-6 w-1/3">
                             <thead>
                                 <tr>
                                     <th class="px-4 py-2">Time</th>
@@ -189,7 +189,7 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
                 <p class="text-2xl font-robotoCondensed text-yellow-300 font-semibold italic cursor-pointer" id="tuesday">T</p>
                 <div id="tuesday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-32">
                     <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Tuesday Schedule Details</p>
-                    <table class="text-white mt-4 ml-6">
+                    <table class="text-white mt-4 ml-6 w-1/3">
                         <thead>
                             <tr>
                                 <th class="px-4 py-2">Time</th>
@@ -222,7 +222,7 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
                 <p class="text-2xl font-robotoCondensed text-white font-semibold italic cursor-pointer" id="wednesday">W</p>
                 <div id="wednesday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-8">
                     <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Wednesday Schedule Details</p>
-                    <table class="text-white mt-4 ml-6">
+                    <table class="text-white mt-4 ml-6 w-auto">
                         <thead>
                             <tr>
                                 <th class="px-4 py-2">Time</th>
@@ -260,7 +260,7 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
                 <p class="text-2xl font-robotoCondensed text-yellow-300 font-semibold italic" id="thursday">T</p>
                 <div id="thursday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-0 mr-20">
                     <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Thursday Schedule Details</p>
-                    <table class="text-white mt-4 ml-6">
+                    <table class="text-white mt-4 ml-6 w-auto">
                         <thead>
                             <tr>
                                 <th class="px-4 py-2">Time</th>
@@ -297,7 +297,7 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
                 <p class="text-2xl font-robotoCondensed text-white font-semibold italic" id="friday">F</p>
                 <div id="friday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-0 mr-44">
                     <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Friday Schedule Details</p>
-                    <table class="text-white mt-4 ml-6">
+                    <table class="text-white mt-4 ml-6 w-1/3">
                         <thead>
                             <tr>
                                 <th class="px-4 py-2">Time</th>
@@ -329,7 +329,7 @@ Code, <span class="text-yellow-200 underline decoration-8">Hibi.</span></pre>
                 <p class="text-2xl font-robotoCondensed text-yellow-300 font-semibold italic" id="saturday">S</p>
                 <div id="saturday-schedule" class="hidden w-full flex flex-col justify-center items-center absolute top-full mt-8 ml-0 mr-72">
                     <p class="ml-12 text-xl font-robotoCondensed text-white font-semibold italic">Saturday Schedule Details</p>
-                    <table class="text-white mt-4 ml-6">
+                    <table class="text-white mt-4 ml-6 w-1/3">
                         <thead>
                             <tr>
                                 <th class="px-4 py-2">Time</th>
